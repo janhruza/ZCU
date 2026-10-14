@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F0C8C232-E236-1FC9-232B-B17540E3F35B" name="PREDMET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8F450487-3293-B831-C526-9F86538DEE4A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5A8A27B1-EB81-78C0-C366-1E028CF8EF7A" name="STUDENT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8F450487-3293-B831-C526-9F86538DEE4A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A32A12C3-767A-67B0-D205-25CD16C19264" name="STUDUJE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8F450487-3293-B831-C526-9F86538DEE4A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="ED3C2313-2DC8-041C-8451-9CDE5E1F74FC" name="Relation_4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8F450487-3293-B831-C526-9F86538DEE4A" propertySourceId="5A8A27B1-EB81-78C0-C366-1E028CF8EF7A" propertyTargetId="A32A12C3-767A-67B0-D205-25CD16C19264"/>
+   <object objectType="Relation" objectID="2C9A0BEC-846A-E85F-FB1D-9E152A86E684" name="Relation_5" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8F450487-3293-B831-C526-9F86538DEE4A" propertySourceId="F0C8C232-E236-1FC9-232B-B17540E3F35B" propertyTargetId="A32A12C3-767A-67B0-D205-25CD16C19264"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
